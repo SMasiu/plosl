@@ -66,11 +66,15 @@ public class Main {
 
         double wz = Main.calculateDeterminant3x3(matrix_z);
 
-        double x1 = wx / w;
-        double x2 = wy / w;
-        double x3 = wz / w;
+        if(w == 0) {
+            System.out.print("Układ sprzeczny");
+        } else {
+            double x1 = wx / w;
+            double x2 = wy / w;
+            double x3 = wz / w;
 
-        System.out.printf("x1 = %f x2 = %f x3 = %f", x1, x2, x3);
+            System.out.printf("x1 = %f x2 = %f x3 = %f", x1, x2, x3);
+        }
     }
 
     public static double calculateDeterminant3x3(double tab[][]) {

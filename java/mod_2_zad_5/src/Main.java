@@ -31,9 +31,13 @@ public class Main {
         double wx = (b1 * a_x2_y2) - (b2 * a_x2_y1);
         double wy = (a_x1_y1 * b2) - (a_x1_y2 * b1);
 
-        double x1 = wx / w;
-        double x2 = wy / w;
+        if(w == 0) {
+            System.out.print("Układ sprzeczny");
+        } else {
+            double x1 = wx / w;
+            double x2 = wy / w;
 
-        System.out.printf("x1 = %f x2 = %f", x1, x2);
+            System.out.printf("x1 = %f x2 = %f", x1, x2);
+        }
     }
 }

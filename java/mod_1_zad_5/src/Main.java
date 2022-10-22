@@ -6,9 +6,10 @@ public class Main {
         Locale.setDefault(new Locale("pl", "PL"));
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Podaj promień koła: ");
-        double r = scanner.nextDouble();
+        System.out.print("Podaj stopnie: ");
+        double deg = scanner.nextDouble();
+        double rad = deg * Math.PI / 180;
 
-        System.out.printf("Powierzchnia koła: %f", Math.PI * r * r);
+        System.out.printf("%f stopni to %f radionów", deg, rad);
     }
 }

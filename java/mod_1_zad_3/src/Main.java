@@ -12,16 +12,16 @@ public class Main {
         System.out.print("Podaj y: ");
         double y = scanner.nextDouble();
 
-        System.out.printf("Wynik dodawania: %s\n", x + y);
+        System.out.printf("Wynik dodawania: %f\n", x + y);
 
-        System.out.printf("Wynik odejmowania: %s\n", x - y);
+        System.out.printf("Wynik odejmowania: %f\n", x - y);
 
-        System.out.printf("Wynik mnożenia: %s\n", x * y);
+        System.out.printf("Wynik mnożenia: %f\n", x * y);
 
         if(y == 0) {
             System.out.println("Nie można dzielić przez 0");
         } else {
-            System.out.printf("Wynik dzielenia: %s\n", x / y);
+            System.out.printf("Wynik dzielenia: %f\n", x / y);
         }
     }
 }

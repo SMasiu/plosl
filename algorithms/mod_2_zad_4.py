@@ -25,7 +25,8 @@ def quick_sort(array, low, high):
     return array
 
 
-input_arr = [65, 76, 34, 45, 23, 657, 34, 34, 2, 43]
-sorted_arr = quick_sort([x for x in input_arr], 0, len(input_arr) - 1)
+if __name__ == '__main__':
+    input_arr = [65, 76, 34, 45, 23, 657, 34, 34, 2, 43]
+    sorted_arr = quick_sort([x for x in input_arr], 0, len(input_arr) - 1)
 
-print("Input: ", input_arr, "Output: ", sorted_arr)
+    print("Input: ", input_arr, "Output: ", sorted_arr)

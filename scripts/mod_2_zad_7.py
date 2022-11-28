@@ -6,8 +6,8 @@ class Point:
         self.x = x
         self.y = y
 
-    def calc_distance(self, p2):
-        return ((self.x - p2.x) ** 2 + (self.y - p2.y) ** 2) ** 0.5
+    def calc_distance(self, other):
+        return ((self.x - other.x) ** 2 + (self.y - other.y) ** 2) ** 0.5
 
 
 p1_x = float(input("Podaj x dla punktu 1: "))

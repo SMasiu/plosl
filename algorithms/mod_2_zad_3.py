@@ -14,7 +14,8 @@ def bubble_sort(arr):
     return arr
 
 
-input_arr = [65, 76, 34, 45, 23, 657, 34, 34, 2, 43]
-sorted_arr = bubble_sort([x for x in input_arr])
+if __name__ == '__main__':
+    input_arr = [65, 76, 34, 45, 23, 657, 34, 34, 2, 43]
+    sorted_arr = bubble_sort([x for x in input_arr])
 
-print("Input: ", input_arr, "Output: ", sorted_arr)
+    print("Input: ", input_arr, "Output: ", sorted_arr)

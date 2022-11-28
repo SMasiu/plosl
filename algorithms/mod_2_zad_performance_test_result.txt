@@ -1,0 +1,26 @@
+bubble sort exec time: 7.012439012527466 for n = 10000 elements
+quick sort exec time: 0.022586584091186523 for n = 10000 elements
+
+bubble sort exec time: 27.51655340194702 for n = 20000 elements
+quick sort exec time: 0.0410466194152832 for n = 20000 elements
+
+bubble sort exec time: 65.26489877700806 for n = 30000 elements
+quick sort exec time: 0.06136584281921387 for n = 30000 elements
+
+bubble sort exec time: 113.15000176429749 for n = 40000 elements
+quick sort exec time: 0.0843048095703125 for n = 40000 elements
+
+bubble sort exec time: 179.8155336380005 for n = 50000 elements
+quick sort exec time: 0.10790491104125977 for n = 50000 elements
+
+bubble sort exec time: 261.58293747901917 for n = 60000 elements
+quick sort exec time: 0.14098334312438965 for n = 60000 elements
+
+bubble sort exec time: 372.7243423461914 for n = 70000 elements
+quick sort exec time: 0.20064926147460938 for n = 70000 elements
+
+bubble sort exec time: 520.0837843418121 for n = 80000 elements
+quick sort exec time: 0.1913130283355713 for n = 80000 elements
+
+bubble sort exec time: 625.3050429821014 for n = 90000 elements
+quick sort exec time: 0.17485952377319336 for n = 90000 elements

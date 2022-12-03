@@ -1,0 +1,1 @@
+forfiles /p "." /s /d -30 -c "cmd /c dir @path" > rozwiazanieZad10.txt
